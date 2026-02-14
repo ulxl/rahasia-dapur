@@ -62,7 +62,7 @@ const HomeScreen = ({ navigation }) => {
 
     return (
         <SafeAreaView className="flex-1 bg-background">
-            <View className="px-6 py-4 flex-row justify-between items-center bg-white shadow-sm">
+            <View className="px-6 py-4 flex-row justify-between items-center bg-white border-b border-gray-200">
                 <View className="flex-row items-center gap-2">
                     <View className="items-center justify-center">
                         <Image source={logo} className="w-10 h-10" resizeMode="contain" />
